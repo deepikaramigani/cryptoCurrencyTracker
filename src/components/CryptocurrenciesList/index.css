@@ -1,0 +1,59 @@
+/* Write your CSS code here */
+.heading {
+  color: #00e7ff;
+  font-weight: bold;
+}
+.currency-container {
+  background-color: #000000;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.crypto-img {
+  width: 70%;
+}
+.currency-list-container {
+  width: 80%;
+  border-style: solid;
+  border-color: #00e7ff;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.header {
+  background-color: #092e33;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.lm {
+  margin-left: 30px;
+}
+.ul-style {
+  padding: 0px;
+}
+.currency-value {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+@media screen and(min-width:768px) {
+  .currency-value {
+    width: 40%;
+  }
+}
+.margin {
+  margin-right: 20px;
+}
